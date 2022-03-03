@@ -29,3 +29,24 @@ if(b % 2 == 1){
 }else{
     alert("Valor inválido!");
 }
+
+var numero = 9;
+var decimal = 9.9;
+var string = "teste";
+var lista = ["laranja", "maça", "banana", 1234];
+
+for(i in lista){
+    alert(lista[i]);
+}
+
+function subtracao (a, b){
+    return a - b;
+}
+
+var aux = subtracao(5, 3);
+console.log(aux);
+
+//evento
+function mensagem(nome){
+    alert("Não clique aqui!"+nome);
+}
