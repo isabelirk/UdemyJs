@@ -56,3 +56,15 @@ function mudaCor(cor){
     var elemento = document.getElementById("mensagem");
     elemento.style.color = cor;
 }
+
+//Validação de um formulário
+function valida(){
+    var nome = document.getElementById('nome');
+    alert(nome.value);
+
+    if(nome.value == ""){
+        alert("Campo nome pode estar em branco.");
+    }else{
+        alert("Formulário enviado com sucesso!");
+    }
+}
