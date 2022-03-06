@@ -50,3 +50,9 @@ console.log(aux);
 function mensagem(nome){
     alert("Não clique aqui!"+nome);
 }
+
+//DOM
+function mudaCor(cor){
+    var elemento = document.getElementById("mensagem");
+    elemento.style.color = cor;
+}
